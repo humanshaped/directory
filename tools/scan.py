@@ -184,7 +184,15 @@ def main():
         print("No GitHub token, so candidates.json was not refreshed.", file=sys.stderr)
         return 1
     listed = {(e.get("repository") or "").lower() for e in listings}
-    candidates = scan(tok, listed)
+    try:
+        candidates = scan(tok, listed)
+    except urllib.error.HTTPError as err:
+        # Code search refuses the workflow's built-in token. The directory
+        # still published; the candidates wait for a token that can search.
+        print(f"::warning::Code search refused this token (HTTP {err.code}), so "
+              "candidates.json was left as it was. Add a DIRECTORY_SEARCH_TOKEN "
+              "secret (a fine-grained token with public read access) to scan.")
+        return 0
     write("candidates.json", {"candidates": candidates})
     print(f"candidates.json: {len(candidates)} candidates")
     return 0
