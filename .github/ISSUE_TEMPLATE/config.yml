@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Talk with the community
+    url: https://github.com/orgs/humanshaped/discussions
+    about: Questions, works in progress, and ideas belong in the community discussions.

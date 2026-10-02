@@ -1,0 +1,19 @@
+{
+  "slug": "archive-watch",
+  "name": "Archive Watch",
+  "in_its_own_words": "A cinematheque for the Internet Archive. Free, public domain, no account.",
+  "website": "https://archivewatch.org",
+  "repository": "https://github.com/bhwilkoff/Archive-Watch",
+  "builder": "Ben Wilkoff",
+  "platforms": ["web", "iphone", "ipad", "mac", "apple-tv", "android", "google-tv", "fire-tv", "roku"],
+  "stores": {
+    "app-store": "https://apps.apple.com/us/app/archive-watch/id6776697407",
+    "google-play": "https://play.google.com/store/apps/details?id=com.archivewatch.app",
+    "amazon": "https://www.amazon.com/gp/mas/dl/android?p=com.archivewatch.app",
+    "roku": "https://channelstore.roku.com/details/12a571a872732e40fe8d1d6c59f3849f:5ec8f46dcec2324229c8d096ea23c089/archive-watch"
+  },
+  "status": "founding",
+  "active": true,
+  "declaration": null,
+  "listed": "2026-10-02"
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "bsky-dreams",
+  "name": "Bsky Dreams",
+  "in_its_own_words": "Bsky Dreams is built for people who want to think more, not less.",
+  "website": "https://bskydreams.com",
+  "repository": "https://github.com/bhwilkoff/Bsky-Dreams",
+  "builder": "Ben Wilkoff",
+  "platforms": ["web", "iphone"],
+  "stores": {
+    "app-store": "https://apps.apple.com/us/app/bsky-dreams/id6760909675"
+  },
+  "status": "founding",
+  "active": true,
+  "declaration": null,
+  "listed": "2026-10-02"
+}

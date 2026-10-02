@@ -1,0 +1,96 @@
+{
+  "apps": [
+    {
+      "slug": "archive-watch",
+      "name": "Archive Watch",
+      "in_its_own_words": "A cinematheque for the Internet Archive. Free, public domain, no account.",
+      "website": "https://archivewatch.org",
+      "repository": "https://github.com/bhwilkoff/Archive-Watch",
+      "builder": "Ben Wilkoff",
+      "platforms": [
+        "web",
+        "iphone",
+        "ipad",
+        "mac",
+        "apple-tv",
+        "android",
+        "google-tv",
+        "fire-tv",
+        "roku"
+      ],
+      "stores": {
+        "app-store": "https://apps.apple.com/us/app/archive-watch/id6776697407",
+        "google-play": "https://play.google.com/store/apps/details?id=com.archivewatch.app",
+        "amazon": "https://www.amazon.com/gp/mas/dl/android?p=com.archivewatch.app",
+        "roku": "https://channelstore.roku.com/details/12a571a872732e40fe8d1d6c59f3849f:5ec8f46dcec2324229c8d096ea23c089/archive-watch"
+      },
+      "status": "founding",
+      "active": true,
+      "declaration": null,
+      "listed": "2026-10-02"
+    },
+    {
+      "slug": "bsky-dreams",
+      "name": "Bsky Dreams",
+      "in_its_own_words": "Bsky Dreams is built for people who want to think more, not less.",
+      "website": "https://bskydreams.com",
+      "repository": "https://github.com/bhwilkoff/Bsky-Dreams",
+      "builder": "Ben Wilkoff",
+      "platforms": [
+        "web",
+        "iphone"
+      ],
+      "stores": {
+        "app-store": "https://apps.apple.com/us/app/bsky-dreams/id6760909675"
+      },
+      "status": "founding",
+      "active": true,
+      "declaration": null,
+      "listed": "2026-10-02"
+    },
+    {
+      "slug": "tidbits-trivia",
+      "name": "Tidbits Trivia",
+      "in_its_own_words": "Trivia from the whole of Wikipedia. Play solo, keep a daily streak, or pass the phone.",
+      "website": "https://tidbitstrivia.com",
+      "repository": "https://github.com/bhwilkoff/Tidbits-Trivia",
+      "builder": "Ben Wilkoff",
+      "platforms": [
+        "web",
+        "iphone",
+        "ipad",
+        "mac",
+        "apple-tv",
+        "android",
+        "windows"
+      ],
+      "stores": {
+        "app-store": "https://apps.apple.com/us/app/tidbits-trivia/id6782202277",
+        "google-play": "https://play.google.com/store/apps/details?id=com.tidbitstrivia.app"
+      },
+      "status": "founding",
+      "active": true,
+      "declaration": null,
+      "listed": "2026-10-02"
+    },
+    {
+      "slug": "boba-playbook",
+      "name": "BOBA Playbook",
+      "in_its_own_words": "The definitive companion app for the Bo Jackson Battle Arena trading card game.",
+      "website": "https://bobaplaybook.com",
+      "repository": "https://github.com/bhwilkoff/BOBA-Playbook",
+      "builder": "Ben Wilkoff",
+      "platforms": [
+        "web",
+        "android"
+      ],
+      "stores": {
+        "google-play": "https://play.google.com/store/apps/details?id=com.bobaplaybook.app"
+      },
+      "status": "founding",
+      "active": false,
+      "declaration": null,
+      "listed": "2026-10-02"
+    }
+  ]
+}

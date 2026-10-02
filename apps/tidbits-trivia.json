@@ -1,0 +1,17 @@
+{
+  "slug": "tidbits-trivia",
+  "name": "Tidbits Trivia",
+  "in_its_own_words": "Trivia from the whole of Wikipedia. Play solo, keep a daily streak, or pass the phone.",
+  "website": "https://tidbitstrivia.com",
+  "repository": "https://github.com/bhwilkoff/Tidbits-Trivia",
+  "builder": "Ben Wilkoff",
+  "platforms": ["web", "iphone", "ipad", "mac", "apple-tv", "android", "windows"],
+  "stores": {
+    "app-store": "https://apps.apple.com/us/app/tidbits-trivia/id6782202277",
+    "google-play": "https://play.google.com/store/apps/details?id=com.tidbitstrivia.app"
+  },
+  "status": "founding",
+  "active": true,
+  "declaration": null,
+  "listed": "2026-10-02"
+}

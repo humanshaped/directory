@@ -1,0 +1,42 @@
+name: Directory scan
+
+# Rebuilds directory.json from apps/*.json, and refreshes candidates.json
+# with public apps that may belong in the directory. Nothing is listed
+# automatically: a listing is a file in apps/, added by Ben or by a pull
+# request he merges.
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  push:
+    branches: [main]
+    paths: ['apps/**', 'tools/scan.py']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: directory-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build the directory and look for candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.DIRECTORY_SEARCH_TOKEN || secrets.GITHUB_TOKEN }}
+        run: python3 tools/scan.py
+      - name: Publish what changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add directory.json candidates.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Refresh the directory and its candidates"
+            git push
+          fi

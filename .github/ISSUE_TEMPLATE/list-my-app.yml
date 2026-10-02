@@ -1,0 +1,38 @@
+name: Ask to list my app
+description: For software built by the Human-Shaped Principles that did not start from the template or a cohort.
+title: "List my app: "
+labels: ["listing request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Apps built in a Human Shaped cohort are listed automatically, and apps made from the Universal App Template are considered automatically. If yours came about another way but you build by the [Human-Shaped Principles](https://humanshaped.org/principles/), tell us about it here and Ben will take a look.
+  - type: input
+    id: name
+    attributes:
+      label: The app's name
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Where people can use it
+      description: A website or a store link.
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Its repository, if it is public
+  - type: textarea
+    id: problem
+    attributes:
+      label: The human-shaped problem it solves
+      description: In your own words, who has the problem and why a computer cannot simply solve it for them.
+    validations:
+      required: true
+  - type: input
+    id: declaration
+    attributes:
+      label: A link to its HUMAN-SHAPED.md declaration, if it has one
+      description: The template for a declaration is at https://github.com/bhwilkoff/UniversalAppTemplate/blob/main/docs/human-shaped/HUMAN-SHAPED-template.md
