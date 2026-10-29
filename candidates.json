@@ -1,3 +1,15 @@
 {
-  "candidates": []
+  "candidates": [
+    {
+      "repository": "https://github.com/SattikBhaumik/Minerva-University-AI-Research-Team-ATLAS-App",
+      "name": "Minerva-University-AI-Research-Team-ATLAS-App",
+      "description": "An application focused on serving one of the many aspects as part of the Minerva Admissions Processing Team.",
+      "website": "",
+      "made_from_template": "bhwilkoff/UniversalAppTemplate",
+      "declaration": null,
+      "declaration_status": null,
+      "principles_version": null,
+      "last_pushed": "2026-10-28T18:42:26Z"
+    }
+  ]
 }
