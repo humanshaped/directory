@@ -9,7 +9,18 @@
       "declaration": null,
       "declaration_status": null,
       "principles_version": null,
-      "last_pushed": "2026-10-28T18:42:26Z"
+      "last_pushed": "2026-11-04T21:06:57Z"
+    },
+    {
+      "repository": "https://github.com/amireness/minerva-parent-hub",
+      "name": "minerva-parent-hub",
+      "description": "A parent-facing platform to help families of prospective Minerva students understand the admissions process, track important deadlines, and support their child's application.",
+      "website": "",
+      "made_from_template": "bhwilkoff/UniversalAppTemplate",
+      "declaration": null,
+      "declaration_status": null,
+      "principles_version": null,
+      "last_pushed": "2026-11-05T05:10:16Z"
     }
   ]
 }
