@@ -1,0 +1,14 @@
+{
+  "slug": "ear-drama",
+  "name": "Ear Drama",
+  "in_its_own_words": "Hear old radio. Make new drama. Radio drama from the Internet Archive, free, with no ads and no account needed to listen.",
+  "website": "https://eardrama.org",
+  "repository": "https://github.com/bhwilkoff/Ear-Drama",
+  "builder": "Ben Wilkoff",
+  "platforms": ["web", "iphone", "ipad", "mac", "apple-tv", "android"],
+  "stores": {},
+  "status": "template",
+  "active": true,
+  "declaration": "https://github.com/bhwilkoff/Ear-Drama/blob/main/HUMAN-SHAPED.md",
+  "listed": "2026-11-18"
+}
