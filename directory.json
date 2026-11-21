@@ -76,7 +76,7 @@
     {
       "slug": "boba-playbook",
       "name": "BOBA Playbook",
-      "in_its_own_words": "The definitive companion app for the Bo Jackson Battle Arena trading card game.",
+      "in_its_own_words": "A companion for the Bo Jackson Battle Arena trading card game, retired in November 2026 because it never had the publisher's approval. Its code and post mortem are open.",
       "website": "https://bobaplaybook.com",
       "repository": "https://github.com/bhwilkoff/BOBA-Playbook",
       "builder": "Ben Wilkoff",
@@ -84,11 +84,11 @@
         "web",
         "android"
       ],
-      "stores": {
-        "google-play": "https://play.google.com/store/apps/details?id=com.bobaplaybook.app"
-      },
+      "stores": {},
       "status": "founding",
       "active": false,
+      "retired": "2026-11-21",
+      "postmortem": "https://github.com/bhwilkoff/BOBA-Playbook/blob/main/POSTMORTEM.md",
       "declaration": null,
       "listed": "2026-10-02"
     },
